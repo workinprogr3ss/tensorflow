@@ -13,11 +13,11 @@ numpy ~= 1.22.0; python_version < '3.11'
 numpy ~= 1.23.2; python_version == '3.11' # Earliest version for Python 3.11
 numpy ~= 1.26.0; python_version >= '3.12' # Earliest version for Python 3.12
 opt_einsum ~= 3.3.0
-protobuf ~= 3.20.3  # NOTE: Earliest version for Python 3.10
+protobuf ~= 7.34.0  # NOTE: Earliest version for Python 3.10
 six ~= 1.16.0
 termcolor ~= 2.1.1
 typing_extensions ~= 4.8.0
-wheel ~= 0.41.2
+wheel ~= 0.46.3
 wrapt ~= 1.14.1
 
 # We need to pin the gast dependency exactly
@@ -32,7 +32,7 @@ tb-nightly ~= 2.14.0.a
 tf-estimator-nightly ~= 2.14.0.dev
 
 # Test dependencies
-grpcio ~= 1.59.0 # Earliest version for Python 3.12
+grpcio ~= 1.78.0 # Earliest version for Python 3.12
 portpicker ~= 1.6.0
 scipy ~= 1.7.2; python_version < '3.11'
 scipy ~= 1.9.2; python_version == '3.11' # Earliest version for Python 3.11
